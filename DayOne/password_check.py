@@ -16,3 +16,11 @@ else:
 
 
 print (f"Your password is {length} chaacters long")
+
+"""
+Key Concepts
+- Variables: Storing the password and its length.
+- Input/Output: input() to get data and print() to show result
+- Conditions: if, elif, and else to make decisions based on data.
+- Built-in FUnctions: Using len() to count characters.
+"""

@@ -9,6 +9,6 @@ print(f"MD5H Hash:{md5_hash}")
 
 # Append to passwords.txt
 with open("password.txt", "a") as file:
-    file.write(text + "\n")
+    file.write("\n" + text)
 
 print(f"'{text}' has been added to password.txt")

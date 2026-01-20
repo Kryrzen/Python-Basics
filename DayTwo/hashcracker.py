@@ -1,7 +1,7 @@
 import hashlib
 
 #The "stolen" hash we want to crack
-target_hash = "5f4dcc3b5aa765d61d8327deb882cf99" # MD5 for password
+target_hash = input("Enter your HASH: ") # MD5 for password
 
 #Open the wordlist file
 try:
